@@ -1,0 +1,28 @@
+nav {
+  border: 1px solid red;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 6rem 0 4rem 0;
+  font-size: 1.2rem;
+  font-weight: var(--normal);
+}
+
+.NavBar {
+  display: flex;
+}
+
+.NavList {
+  display: flex;
+  gap: 3rem;
+}
+
+.NavItem {
+  list-style: none;
+}
+
+.NavItem:hover {
+  color: var(--soft-red);
+  cursor: pointer;
+}
