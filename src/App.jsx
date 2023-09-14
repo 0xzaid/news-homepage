@@ -1,11 +1,12 @@
 import './styles/global.css'
 import Navbar from './components/Navbar'
+import Content from './components/Content'
 
 function App() {
   return (
     <>
       <Navbar />
-      <h1>Hi</h1>
+      <Content />
     </>
   )
 }
